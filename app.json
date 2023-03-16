@@ -1,0 +1,27 @@
+{
+    "name": "Muffiaboto",
+    "description": "Modular  Telegram Bot powered by @kenapatagdar!",
+    "keywords": [
+        "telegram",
+        "bot",
+        "plugin",
+        "modular",
+        "productivity"
+    ],
+    "repository": "",
+    "success_url": "",
+    "env": {
+        "TELEGRAM_API_TOKEN": {
+            "description": "Obtain a Telegram bot token by contacting @BotFather"
+        }
+    },
+    "buildpacks": [{
+        "url": "heroku/python"
+    }],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "eco"
+        }
+    }
+}
